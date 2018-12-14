@@ -1,0 +1,84 @@
+{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for SwitchCase.",
+	"text": {
+		"plugins": {
+			"wastrel_switchcase": {
+				"name": "SwitchCase",
+				"description": "Provides a Switch-Case structure for events.",
+				"help-url": "http://scirra.com",
+				"properties": {
+				},
+				"aceCategories": {
+					"switchcase": "SwitchCase"
+				},
+				"conditions": {
+					"switch0": {
+						"list-name": "Switch",
+						"display-text": "Switch [i]{0}[/i]",
+						"description": "Variable to be evaluated.",
+						"params": {
+							"variable0": { "name":"Variable", "desc":"Variable name to be evaluated using case statements."}
+						}
+						},
+					"case1": {
+						"list-name": "Case",
+						"display-text": "Case [i]{0}[/i]",
+						"description": "Value to be evaluated against the switch variable.",
+						"params": {
+							"value0": { "name":"Value", "desc":"Value to be evaluated against switch variable."}
+						}
+						},
+					"caserange2": {
+						"list-name": "Case range",
+						"display-text": "Case range [i]{0}[/i] to [i]{1}[/i]",
+						"description": "Range of values to be evaluated against the switch variable, inclusive.",
+						"params": {
+							"start_value0": { "name":"Start value", "desc":"Start value of range to be evaluated against switch variable."},
+							"end_value1": { "name":"End value", "desc":"End value to be evaluated against switch variable."}
+						}
+						},
+					"casecontains3": {
+						"list-name": "Case contains",
+						"display-text": "Case contains [i]{0}[/i]",
+						"description": "String to search for in switch variable.",
+						"params": {
+							"contains0": { "name":"Contains", "desc":"String to search for in switch variable."}
+						}
+						},
+					"default4": {
+						"list-name": "Default",
+						"display-text": "Default",
+						"description": "Default case, if everything else fails."
+						},
+					"caselist5": {
+						"list-name": "Case list",
+						"display-text": "Case list [i]{{0}}[/i]",
+						"description": "List of values to compare to switch variable.",
+						"params": {
+							"case_list0": { "name":"Case list", "desc":"List of values to compare to switch variable. <b>Separate values with a comma.</b>"}
+						}
+						},
+					"casecompare6": {
+						"list-name": "Case compare",
+						"display-text": "Case compare [i]switch var {0} {1}[/i]",
+						"description": "Value to be evaluated against the switch variable, using a comparison operator.",
+						"params": {
+							"is_switch_variable0": { "name":"Is switch variable", "desc":"Comparison operators for comparing value to switch variable"},
+							"value1": { "name":"Value", "desc":"Value to be evaluated against switch variable."}
+						}
+						}
+				},
+				"actions": {
+					"casebreak0": {
+						"list-name": "Break",
+						"display-text": "[b]Break[/b]",
+						"description": "Used to bypass remaining case statements."
+					}
+				},
+				"expressions": {
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"switchcase": {
+		"conditions": [
+			{
+				"c2id": 0,
+				"id": "switch0",
+				"scriptName": "Switch",
+				"highlight": false,
+				"params": [
+					{"id":"variable0", "type":"any"}
+				]
+			},
+			{
+				"c2id": 1,
+				"id": "case1",
+				"scriptName": "Case",
+				"highlight": false,
+				"params": [
+					{"id":"value0", "type":"any"}
+				]
+			},
+			{
+				"c2id": 2,
+				"id": "caserange2",
+				"scriptName": "CaseRange",
+				"highlight": false,
+				"params": [
+					{"id":"start_value0", "type":"any"},
+					{"id":"end_value1", "type":"any"}
+				]
+			},
+			{
+				"c2id": 3,
+				"id": "casecontains3",
+				"scriptName": "CaseContains",
+				"highlight": false,
+				"params": [
+					{"id":"contains0", "type":"string"}
+				]
+			},
+			{
+				"c2id": 4,
+				"id": "default4",
+				"scriptName": "Default",
+				"highlight": false
+			},
+			{
+				"c2id": 5,
+				"id": "caselist5",
+				"scriptName": "CaseList",
+				"highlight": false,
+				"params": [
+					{"id":"case_list0", "type":"string"}
+				]
+			},
+			{
+				"c2id": 6,
+				"id": "casecompare6",
+				"scriptName": "CaseCompare",
+				"highlight": false,
+				"params": [
+					{"id":"is_switch_variable0", "type":"cmp"},
+					{"id":"value1", "type":"any"}
+				]
+			}
+		],
+		"actions": [
+			{
+				"c2id": 0,
+				"id": "casebreak0",
+				"scriptName": "CaseBreak",
+				"highlight": false
+			}
+		],
+		"expressions": [
+		]
+	}
+}
